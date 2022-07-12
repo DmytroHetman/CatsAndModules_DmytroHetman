@@ -7,6 +7,11 @@ target 'CatsAndModules_DmytroHetman' do
 
   # Pods for CatsAndModules_DmytroHetman
 
-pod 'SDWebImage'
+	pod 'SDWebImage'
+	pod 'FirebaseAnalytics'
+	pod 'FirebaseCrashlytics'
+	pod 'FirebasePerformance'
+	
+
 
 end
