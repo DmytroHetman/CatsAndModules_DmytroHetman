@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		93200E462864918A00D9A2D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93200E452864918A00D9A2D9 /* GoogleService-Info.plist */; };
-		93200E492864973400D9A2D9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 93200E482864973400D9A2D9 /* FirebaseAnalytics */; };
-		93200E4B2864973400D9A2D9 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 93200E4A2864973400D9A2D9 /* FirebaseCrashlytics */; };
-		93200E4D2864973400D9A2D9 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 93200E4C2864973400D9A2D9 /* FirebasePerformance */; };
 		93439976285CC238002D4D1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93439975285CC238002D4D1C /* AppDelegate.swift */; };
 		93439978285CC238002D4D1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93439977285CC238002D4D1C /* SceneDelegate.swift */; };
 		9343997A285CC238002D4D1C /* AnimalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93439979285CC238002D4D1C /* AnimalTableViewController.swift */; };
@@ -115,10 +112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93439A11285CF13C002D4D1C /* Networking.framework in Frameworks */,
-				93200E4B2864973400D9A2D9 /* FirebaseCrashlytics in Frameworks */,
-				93200E4D2864973400D9A2D9 /* FirebasePerformance in Frameworks */,
 				D8AD8087C63450E0722F592C /* Pods_CatsAndModules_DmytroHetman.framework in Frameworks */,
-				93200E492864973400D9A2D9 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,9 +241,6 @@
 			);
 			name = CatsAndModules_DmytroHetman;
 			packageProductDependencies = (
-				93200E482864973400D9A2D9 /* FirebaseAnalytics */,
-				93200E4A2864973400D9A2D9 /* FirebaseCrashlytics */,
-				93200E4C2864973400D9A2D9 /* FirebasePerformance */,
 			);
 			productName = CatsAndModules_DmytroHetman;
 			productReference = 93439972285CC238002D4D1C /* CatsAndModules_DmytroHetman.app */;
@@ -620,7 +611,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.3;
+				MARKETING_VERSION = 2.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.hetman.CatsAndModules-DmytroHetman";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "UKMA Edu Shared Profile";
@@ -652,7 +643,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.3;
+				MARKETING_VERSION = 2.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.hetman.CatsAndModules-DmytroHetman";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "UKMA Edu Shared Profile";
@@ -738,24 +729,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		93200E482864973400D9A2D9 /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 93200E472864973400D9A2D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		93200E4A2864973400D9A2D9 /* FirebaseCrashlytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 93200E472864973400D9A2D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCrashlytics;
-		};
-		93200E4C2864973400D9A2D9 /* FirebasePerformance */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 93200E472864973400D9A2D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebasePerformance;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9343996A285CC238002D4D1C /* Project object */;
 }
