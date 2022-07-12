@@ -22,7 +22,7 @@ platform :ios do
   end
   
   lane :build_and_export do
-    xcode_select "/Applications/Xcode.app"
+    
     gym
     
     google_app_id = get_info_plist_value(
