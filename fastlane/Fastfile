@@ -30,7 +30,6 @@ platform :ios do
     )
     
     firebase_app_distribution(
-        release_notes: "New Version",
         app: google_app_id,
         testers: "n.marhal@ukma.edu.ua"
     )
