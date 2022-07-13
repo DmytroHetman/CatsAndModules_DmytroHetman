@@ -17,4 +17,4 @@ export_method("development")
 output_directory("./output")
 output_name("CatsAndModules_DmytroHetman.ipa")
 
-export_options: { compileBitcode: false}
+
