@@ -13,6 +13,7 @@ workspace("CatsAndModules_DmytroHetman.xcworkspace")
 
 destination("generic/platform=iOS")
 export_method("development")
+export_options("./exportOptions.plist")
 
 output_directory("./output")
 output_name("CatsAndModules_DmytroHetman.ipa")
