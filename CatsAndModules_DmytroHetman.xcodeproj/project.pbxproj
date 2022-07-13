@@ -14,8 +14,6 @@
 		9343997D285CC238002D4D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9343997B285CC238002D4D1C /* Main.storyboard */; };
 		9343997F285CC23B002D4D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9343997E285CC23B002D4D1C /* Assets.xcassets */; };
 		93439982285CC23B002D4D1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93439980285CC23B002D4D1C /* LaunchScreen.storyboard */; };
-		93439A11285CF13C002D4D1C /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93439A05285CE585002D4D1C /* Networking.framework */; };
-		93439A12285CF13C002D4D1C /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 93439A05285CE585002D4D1C /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		93439A17285DEA85002D4D1C /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93439A16285DEA85002D4D1C /* Const.swift */; };
 		93439A1F2860FB9C002D4D1C /* AnimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93439A1E2860FB9C002D4D1C /* AnimalTableViewCell.swift */; };
 		934997E7286321370071BED0 /* FullAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934997E6286321370071BED0 /* FullAnimalViewController.swift */; };
@@ -29,6 +27,8 @@
 		939C22BD287B4637007394C9 /* Pluginfile in Resources */ = {isa = PBXBuildFile; fileRef = 939C22BA287B4637007394C9 /* Pluginfile */; };
 		939C22C2287B775C007394C9 /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = 939C22BF287B775C007394C9 /* Snapfile */; };
 		939C22C5287B79E0007394C9 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939C22C3287B7765007394C9 /* SnapshotHelper.swift */; };
+		93B0DC48287EBC32009F8125 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93439A05285CE585002D4D1C /* Networking.framework */; platformFilter = ios; };
+		93B0DC49287EBC32009F8125 /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 93439A05285CE585002D4D1C /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		93D3BC6128621E4500D31501 /* AnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D3BC6028621E4500D31501 /* AnimalView.swift */; };
 		93D3BC6328621E5F00D31501 /* CatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93D3BC6228621E5F00D31501 /* CatView.xib */; };
 		D8AD8087C63450E0722F592C /* Pods_CatsAndModules_DmytroHetman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22EAB9E2F7AB94430AF0D99A /* Pods_CatsAndModules_DmytroHetman.framework */; };
@@ -59,13 +59,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		93439A13285CF13C002D4D1C /* Embed Frameworks */ = {
+		93B0DC4A287EBC32009F8125 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				93439A12285CF13C002D4D1C /* Networking.framework in Embed Frameworks */,
+				93B0DC49287EBC32009F8125 /* Networking.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93439A11285CF13C002D4D1C /* Networking.framework in Frameworks */,
+				93B0DC48287EBC32009F8125 /* Networking.framework in Frameworks */,
 				D8AD8087C63450E0722F592C /* Pods_CatsAndModules_DmytroHetman.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,9 +231,9 @@
 				9343996E285CC238002D4D1C /* Sources */,
 				9343996F285CC238002D4D1C /* Frameworks */,
 				93439970285CC238002D4D1C /* Resources */,
-				93439A13285CF13C002D4D1C /* Embed Frameworks */,
 				03FA0888BD162C5EAE23F598 /* [CP] Embed Pods Frameworks */,
 				93200E4E2865C90100D9A2D9 /* Run Crashlytics */,
+				93B0DC4A287EBC32009F8125 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -610,7 +610,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.9;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.hetman.CatsAndModules-DmytroHetman";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "UKMA Edu Shared Profile";
@@ -642,7 +642,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.9;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.hetman.CatsAndModules-DmytroHetman";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "UKMA Edu Shared Profile";
